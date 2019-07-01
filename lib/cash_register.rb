@@ -3,7 +3,7 @@ class CashRegister
   attr_accessor :items, :discount, :total, :last_transaction        #ATTRIBUTES
 
   def initialize(discount = 0)
-    @total = 0
+    @total = 0                        #set total initially to 0
     @discount = discount
     @items = []       #set items attribute to an item array
   end
