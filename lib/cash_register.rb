@@ -4,7 +4,7 @@ class CashRegister
 
   def initialize(discount = 0)
     @total = 0                        #set total initially to 0
-    @discount = discount
+    @discount = discount              #set our argument equal to our @discount accessor
     @items = []       #set items attribute to an item array
   end
 
